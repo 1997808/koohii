@@ -1,0 +1,230 @@
+.gioi_Thieu {
+    background-image: url("/img/Stock/StockSnap_N7FUTW0RY5.jpg");
+    background-size: cover;
+    padding-bottom: 50px;
+
+    h1 {
+        font-size: $font_thicc;
+        font-weight: $font_w_bold;
+        text-align: center;
+        padding: 130px 0 20px 0;
+    }
+
+    .button {
+        height: 50px;
+        border: $border_blue;
+        color: #222;
+        border-radius: $radius_2;
+        margin-top: 15px;
+        font-size: $font_medium;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.body {
+    text-align: center;
+
+    h2, h3, h4 {
+        font-size: $font_big;
+        font-weight: $font_w_bold;
+    }
+    h2 {
+        padding-top: 10px;
+        border-top: $border_gray;
+    }
+    ul, h4 {
+        font-size: $font_small;
+    }
+
+    h3 {
+        font-size: $font_medium;
+    }
+
+    
+
+    .sanPham {
+        .pic_sanPham {
+            width: 100%;
+            height: 35vw;
+            object-fit: scale-down;
+            margin: 5px 0 5px 0;
+        }
+    }
+
+    .trangChu_blog {
+        
+        .trai_blog {
+            border-right: $border_gray;
+        }
+        .trai_blog,
+        .phai_blog {
+            .pic_blogtrai,
+            .pic_blogphai {
+                width: 100%;
+                object-fit: scale-down;
+                margin: 5px 0 5px 0;
+            }
+
+            .pic_blogtrai {
+                height: 50vw;
+            }
+
+            .pic_blogphai {
+                height: 20vw;
+            }
+        }
+    }
+
+    .trangChu_linhKien {
+        p {
+            font-size: $font_small;
+            padding-bottom: 5px;
+        }
+
+        .pic_sanPham_2 {
+            width: 100%;
+            height: 25vw;
+            object-fit: scale-down;
+        }
+    }
+
+    .button_1 {
+        margin: 20px 0 40px 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .body {
+        .sanPham {
+            .pic_sanPham {
+                height: 25vw;
+            }
+        }
+    
+        .trangChu_blog {
+            
+            .trai_blog {
+                border-right: none;
+            }
+
+            .trai_blog,
+            .phai_blog {
+
+                .pic_blogtrai,
+                .pic_blogphai {
+                    object-fit: cover;
+                }
+    
+                .pic_blogtrai {
+                    height: 40vw;
+                }
+            }
+        }
+    
+        .trangChu_linhKien { 
+            .pic_sanPham_2 {
+                height: 15vw;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .gioi_Thieu {
+        background-image: url("/img/Stock/StockSnap_JKYVIPMTIY.jpg");
+        background-position: center center;
+        height: 650px;
+        position: relative;
+    
+        h1 {
+            font-size: $font_thicc;
+            font-weight: $font_w_bold;
+            text-align: center;
+            padding: 230px 0 0 0;
+        }
+    
+        .button {
+            height: 70px;
+            border: none;
+            color: white;
+            background: $bg_dark;
+            margin-top: 0;
+        }
+
+        .gioi_Thieu_row {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%)
+        }
+    }
+
+    .body {
+
+        h2 {
+            border-top: none; 
+        }
+
+        .row {
+            .h2_style {
+                padding: 9vw 0 1vw 0;
+            }
+
+            .sanPham {
+                .pic_sanPham {
+                    height: 20vw;
+                }
+            }
+        }
+        .trangChu_pc {
+            padding: 30px 0 30px 0;   
+        }
+        .trangChu_laptop {
+            padding: 30px 0 30px 0;   
+        }
+
+        .trangChu_blog {
+            h2 {
+                padding: 30px 0 30px 0;    
+            }
+            .trai_blog {
+                border-right: none;
+            }
+
+            .trai_blog,
+            .phai_blog {
+
+                .button_1 {
+                    margin-top: 5vw;
+                    margin-bottom: 0px;
+                }
+
+                .pic_blogtrai,
+                .pic_blogphai {
+                    object-fit: cover;
+                }
+
+                .pic_blogtrai {
+                    height: 33vw;
+                }
+            }
+        }
+
+        .trangChu_linhKien { 
+            .linhKien_p {
+                padding: 60px 0 10px 0;       
+            }
+            .pic_sanPham_2 {
+                height: 15vw;
+            }
+
+            p {
+                padding-top: 30px;
+                padding-bottom: 0px;
+            }
+        }
+    }
+}

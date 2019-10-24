@@ -1,0 +1,37 @@
+//type-font_chu
+$font_1: 'segoe ui';
+//$font_2: 'roboto','arial';
+
+//color-chu
+$color_font: #222;
+$main_blue: #4285F4;
+$main_white: #fff;
+
+//big_font
+$font_thicc: calc(36px + (50 - 36) * ((100vw - 300px) / (1440 - 300)));
+$font_big: calc(26px + (36 - 26) * ((100vw - 300px) / (1440 - 300)));
+$font_medium: calc(18px + (24 - 18) * ((100vw - 300px) / (1440 - 300)));
+$font_small: calc(12px + (14 - 12) * ((100vw - 300px) / (1440 - 300)));
+//responsive font bootstrap.
+
+
+
+//font-weight
+$font_w_bold: 600;
+$font_w_light: 300;
+
+//color-background
+$bg_blue: #4285F4;
+$bg_gray: #eee;
+$bg_dark: #2d2d2d;
+
+//padding_auto-margin_auto
+
+
+//border
+$border_blue: 2px solid #4285F4;
+$border_gray: 1px solid #bbb;
+
+//border-radius
+$radius_1: 5px;
+$radius_2: 10px;

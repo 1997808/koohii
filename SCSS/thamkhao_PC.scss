@@ -1,0 +1,43 @@
+.body_thamkhaoPC {
+    text-align: center;
+
+    .trangChu_pc{
+        border-top: $border_gray;
+
+        h2 {
+            font-size: $font-big;
+            background: $bg_dark;
+            color: $main_white;
+            padding: 4px 0; 
+            margin-bottom: 30px;
+        }
+    }
+
+    .sanPham {
+        .pic_sanPham {
+            width: 100%;
+            height: 35vw;
+            object-fit: scale-down;
+            margin: 5px 0;
+        }
+
+        p {
+            font-size: $font_small;
+            background: #222;
+            color: white;  
+            padding: 4px 0; 
+            margin-top: 10px;
+            margin-bottom: 60px;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .body_thamkhaoPC {
+        .sanPham {
+            .pic_sanPham {
+                height: 25vw;
+            }
+        }
+    }
+}

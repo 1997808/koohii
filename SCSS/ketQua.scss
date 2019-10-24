@@ -1,0 +1,47 @@
+.body_ketQua {
+    text-align: center;
+
+    .sanPham {  
+        vertical-align: middle;
+
+        .pic_sanPham {
+            width: 100%;
+            height: 35vw;
+            object-fit: scale-down;
+            margin: 5px 0 5px 0;
+        }
+
+        div {
+            text-align: left;     
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        h3 {
+            font-size: $font_medium;
+            font-weight: $font_w_bold;  
+        }
+
+        p {
+            font-size: $font_small;
+            background: #222;
+            color: white;  
+            padding: 4px 0 4px 0; 
+        }
+    }
+
+    .button_1 {
+        margin-top: 20px
+    } 
+}
+
+@media (min-width: 768px) {
+    .body_ketQua {
+        .sanPham {  
+            .pic_sanPham {
+                height: 25vw;
+            }
+        }
+    }
+}

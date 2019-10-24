@@ -1,0 +1,31 @@
+.head_linhKien {
+    background-image: url("/img/Stock/StockSnap_F2RHZDPRTQ.jpg");
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+    padding: 130px 0 30px 0;
+    margin-bottom: 30px;
+
+    h2 {
+        font-size: $font_thicc;
+        font-weight: $font_w_bold;
+    }
+}
+
+.body_linhKien {
+    .sanPham_2 {
+        text-align: center;
+    
+        h4 {
+            font-size: $font_medium;
+            font-weight: $font_w_bold;
+            padding: 5px;
+        }
+    
+        .pic_sanPham_2 {
+            width: 100%;
+            height: 25vw;
+            object-fit: scale-down;
+        }
+    }
+}

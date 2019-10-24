@@ -1,0 +1,61 @@
+.body_QA {
+    text-align: center;
+    
+    h3 {
+        border-bottom: $border_gray;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    h3, h4 {
+        font-size: $font_medium;
+        font-weight: $font_w_bold;
+    }  
+
+    .button_QA, 
+    .button_Monei {
+        height: 40px;
+        border: $border_blue;
+        border-radius: $radius_2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px; 
+    }
+            
+    .progress {
+        padding: 0;
+        transform: translateY(20%);
+    }
+
+    .body_Monei {
+
+        h3 {
+            font-size: $font_big;
+            border-bottom: none;
+            margin-bottom: 0px;
+        }
+
+        .pick_Monei,
+        .moneiBar {
+            margin-top: 10px;
+        }
+
+        .pick_Monei,
+        .button_Monei {
+            margin-bottom: 30px;
+        }
+
+        .button_Monei {
+            margin-top: 20px;
+        }
+    }
+
+
+}
+
+div .button_QA:hover {
+    background: #4285F4;
+    color: white;
+}
