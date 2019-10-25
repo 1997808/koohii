@@ -27,20 +27,27 @@
     text-align: center;
 
     h2, h3, h4 {
-        font-size: $font_big;
         font-weight: $font_w_bold;
     }
     h2 {
+        font-size: $font_big;
         padding-top: 10px;
         border-top: $border_gray;
-    }
-    ul, h4 {
-        font-size: $font_small;
     }
 
     h3 {
         font-size: $font_medium;
     }
+
+    h4 {
+        font-size: $font_small_2;
+    }
+
+    ul {
+        font-size: $font_small;
+    }
+
+    
 
     
 
@@ -168,17 +175,39 @@
             border-top: none; 
         }
 
-        .row {
-            .h2_style {
-                padding: 9vw 0 1vw 0;
+        .gioi_Thieu_May_Bar {
+            border-top: $border_gray;
+            border-bottom: $border_gray;
+
+            .gioi_Thieu_May {
+                background: #eee;
+                padding-left: 0px;
+
+                .gioi_Thieu_May_1 {
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+            }   
+            .button_1 {
+                margin-bottom: 0px;
+            } 
+        }
+        
+        .h2_style {
+            padding: 0px 40px;
+        }
+
+        .sanPham {
+            .pic_sanPham {
+                height: 15vw;
             }
 
-            .sanPham {
-                .pic_sanPham {
-                    height: 20vw;
-                }
+            ul {
+                padding: 10px 0 10px 0;
             }
         }
+
         .trangChu_pc {
             padding: 30px 0 30px 0;   
         }
@@ -191,14 +220,15 @@
                 padding: 30px 0 30px 0;    
             }
             .trai_blog {
-                border-right: none;
+                border-left: $border_gray;
+                border-right: $border_gray;
             }
 
             .trai_blog,
             .phai_blog {
 
                 .button_1 {
-                    margin-top: 5vw;
+                    margin-top: 3vw;
                     margin-bottom: 0px;
                 }
 
@@ -208,22 +238,26 @@
                 }
 
                 .pic_blogtrai {
-                    height: 33vw;
+                    height: 26vw;
+                }
+
+                .pic_blogphai {
+                    height: 15vw;
                 }
             }
         }
 
         .trangChu_linhKien { 
             .linhKien_p {
-                padding: 60px 0 10px 0;       
+                padding: 90px 0 10px 0;       
             }
-            .pic_sanPham_2 {
-                height: 15vw;
-            }
+            .sanPham_2 {
+                padding-bottom: 10px;
 
-            p {
-                padding-top: 30px;
-                padding-bottom: 0px;
+                .pic_sanPham_2 {
+                    height: 10vw;
+                    padding: 10px 0 10px 0;
+                }
             }
         }
     }

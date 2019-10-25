@@ -32,7 +32,7 @@
     }
 
     .button_1 {
-        margin-top: 20px
+        margin-top: 20px;
     } 
 }
 
@@ -41,6 +41,19 @@
         .sanPham {  
             .pic_sanPham {
                 height: 25vw;
+            }
+        }
+        .button_1 {
+            margin-top: 30px;
+        } 
+    } 
+}
+
+@media (min-width: 992px) {
+    .body_ketQua {
+        .sanPham {  
+            .pic_sanPham {
+                height: 18vw;
             }
         }
     }

@@ -1,16 +1,12 @@
 .body_thamkhaoPC {
-    text-align: center;
 
-    .trangChu_pc{
-        border-top: $border_gray;
-
-        h2 {
-            font-size: $font-big;
-            background: $bg_dark;
-            color: $main_white;
-            padding: 4px 0; 
-            margin-bottom: 30px;
-        }
+    h2 {
+        border-bottom: $border_gray;
+        font-size: $font-big;
+        font-weight: $font_w_bold;
+        color: $main_font;
+        padding: 4px 0; 
+        margin-bottom: 10px;
     }
 
     .sanPham {
@@ -21,14 +17,30 @@
             margin: 5px 0;
         }
 
-        p {
-            font-size: $font_small;
-            background: #222;
-            color: white;  
-            padding: 4px 0; 
-            margin-top: 10px;
-            margin-bottom: 60px;
-        }
+        .trangChu_pc {
+            margin-top: 5px;
+            margin-bottom: 30px;
+            padding: 5px; 
+            background: $bg_gray;
+
+            .price {
+                font-size: $font_medium;
+            }
+
+            h4,
+            .price_tag {
+                font-size: $font_small_2;
+            }
+
+            h4 {
+                font-weight: $font_w_bold;
+            }
+
+            .price_tag {
+                color: $main_font_2;
+                margin-top: 5px;
+            }
+        }   
     }
 }
 
@@ -36,7 +48,17 @@
     .body_thamkhaoPC {
         .sanPham {
             .pic_sanPham {
-                height: 25vw;
+                height: 20vw;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .body_thamkhaoPC {
+        .sanPham {
+            .pic_sanPham {
+                height: 15vw;
             }
         }
     }

@@ -2,7 +2,7 @@
 
     img {
         width: 100%;
-        object-fit: scale-down;
+        object-fit: cover;
     }
 
     .baiViet_big {
@@ -13,7 +13,7 @@
         h4 { 
             font-size: $font-big;
             font-weight: $font_w_bold;
-            padding: 10px 15px;
+            padding: 10px 0px;
         }
     } 
 
@@ -25,7 +25,7 @@
         h4 { 
             font-size: $font-medium;
             font-weight: $font_w_bold;
-            padding: 5px 10px;
+            padding: 5px 0px 20px 0px;
         }
     } 
 
@@ -38,8 +38,16 @@
             border-bottom: $border_gray;
 
             img { height: 20vw; }
-            h4 { 
-                font-size: $font-medium;               
+           
+            .text_Blog {
+                h4 { 
+                    font-size: $font-small_2;  
+                    font-weight: $font_w_bold;    
+                    padding: 5px 0px;         
+                }
+                p {
+                    font-size: $font-small; 
+                }
             }
         }  
 
@@ -60,14 +68,69 @@
         } 
     
         .baiViet_small {
-    
+
             .baiViet_1 {
                 margin-top: 10px;
                 padding-bottom: 10px;
                 border-bottom: $border_gray;
+                position: relative;
     
                 img { height: 15vw; }
+
+                .text_Blog {
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+            }    
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .body_blog {
+    
+        .baiViet_big {
+            img { 
+                height: 25vw; 
+            }
+        } 
+    
+        .baiViet_small {
+            .baiViet_1 {
+                img { height: 8vw; }
             }  
+        }
+
+        .baiViet {
+            img { 
+                height: 10vw; 
+            }
+        } 
+
+        .top_Blog {
+            i {
+                display: block;
+            }
+
+            h3 {
+                font-size: $font-big;
+                font-weight: $font_w_bold;
+                padding-bottom: 20px;
+            }
+
+            .baiViet {
+                img { 
+                    height: 10vw; 
+                    border: $border_gray;
+                    object-fit: cover;
+                }
+                h4 { 
+                    font-size: $font-medium;
+                    font-weight: $font_w_bold;
+                    padding: 5px 0px 30px 0px;
+                }
+            } 
         }
     }
 }

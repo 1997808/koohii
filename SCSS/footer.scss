@@ -4,16 +4,21 @@
     align-items: center;
     color: $main_white;
     margin-top: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 
     a {
         align-items: center;
         .loGo {
-            height: 80px;
+            height: 60px;
         }
     }
 
     h3 {
-        font-size: $font_big;
+        font-size: $font_medium;
+        padding-bottom: 5px;
     }
 
     ul, p {

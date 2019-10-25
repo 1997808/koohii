@@ -23,6 +23,11 @@
                 margin-top: 10px;
             }
 
+            ul {
+                font-size: $font_small;
+                padding: 5px 0px 5px 0px; 
+            }
+
             p {
                 font-size: $font_small;
                 background: #222;
@@ -54,14 +59,50 @@
     
             .sanPham {
                 .pic_sanPham {
-                    height: 15vw;
+                    height: 20vw;
                 }
             }
             
             .sanPham_info {
+                display: block;
+                border-top: none;
+                position: relative;                
+                
                 h3 {
-                    font-size: $font-medium;
+                    margin-top: 0px;
+                }
+
+                p {
+                    display: inline-block;
+                    position: absolute;
+                    bottom: 10px;
+                    right: 0px
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .body_thamkhaoLap {
+        .listLap {
+            .sanPham {
+                .pic_sanPham {
+                    height: 15vw;
+                }
+            }
+            
+            .sanPham_info {            
+                h3 {
                     margin-top: 20px;
+                }
+                
+                p {
+                    padding: 10px 20px 10px 20px;    
+                }
+
+                ul {
+                    padding: 10px 0px 10px 0px; 
                 }
             }
         }
