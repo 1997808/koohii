@@ -48,7 +48,7 @@
     .menu li {
       padding-left: 5vw; } }
 .gioi_Thieu {
-  background-image: url("../../img/Stock/StockSnap_N7FUTW0RY5.jpg");
+  background-image: url("//img/Stock/StockSnap_N7FUTW0RY5.jpg");
   background-size: cover;
   padding-bottom: 50px; }
   .gioi_Thieu h1 {
@@ -222,7 +222,7 @@
     font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1920 - 300))); }
 
 .head_linhKien {
-  background-image: url("../../img/Stock/StockSnap_F2RHZDPRTQ.jpg");
+  background-image: url("//img/Stock/StockSnap_F2RHZDPRTQ.jpg");
   background-size: cover;
   overflow: hidden;
   text-align: center;
