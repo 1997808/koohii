@@ -85,6 +85,27 @@
 
 @media (min-width: 992px) {
     .body_thamkhaoLap {
+        .loc_sanPham {
+            text-align: center;
+
+            h3 {
+                font-size: $font-small_2;
+                background: #222;
+                color: white;
+                padding: 5px 0;
+                margin: 15px 0 5px 0;
+            }
+
+            ul {
+                text-align: left;
+                font-size: $font-small;
+
+                li {
+                    padding: 5px 0;
+                }
+            }
+        }
+
         .listLap {
             .sanPham {
                 .pic_sanPham {

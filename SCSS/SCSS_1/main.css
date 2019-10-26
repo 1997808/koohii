@@ -413,6 +413,19 @@ div .button_QA:hover,
         bottom: 10px;
         right: 0px; } }
 @media (min-width: 992px) {
+  .body_thamkhaoLap .loc_sanPham {
+    text-align: center; }
+    .body_thamkhaoLap .loc_sanPham h3 {
+      font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1920 - 300)));
+      background: #222;
+      color: white;
+      padding: 5px 0;
+      margin: 15px 0 5px 0; }
+    .body_thamkhaoLap .loc_sanPham ul {
+      text-align: left;
+      font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1920 - 300))); }
+      .body_thamkhaoLap .loc_sanPham ul li {
+        padding: 5px 0; }
   .body_thamkhaoLap .listLap .sanPham .pic_sanPham {
     height: 15vw; }
   .body_thamkhaoLap .listLap .sanPham_info h3 {
