@@ -22,6 +22,10 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 50px; 
+
+        a {
+            color: $main_font;
+        }
     }
             
     .progress {
@@ -54,12 +58,20 @@
         .button_Monei {
             margin-top: 20px;
         }
+
+        .fix_btn_active {
+            background: #4285F4;
+            color: white;
+        }
     }
 
 
 }
 
-div .button_QA:hover {
+div .button_QA:hover,
+    .next_btn:hover {
     background: #4285F4;
-    color: white;
+    a {
+        color: white;
+    }
 }

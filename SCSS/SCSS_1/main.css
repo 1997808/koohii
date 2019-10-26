@@ -58,8 +58,8 @@
     padding: 130px 0 20px 0; }
   .gioi_Thieu .button {
     height: 50px;
-    border: 2px solid #4285F4;
-    color: #222;
+    color: white;
+    background: #2d2d2d;
     border-radius: 10px;
     margin-top: 15px;
     font-size: calc(20px + (26 - 20) * ((100vw - 300px) / (1920 - 300)));
@@ -139,9 +139,6 @@
       padding: 230px 0 0 0; }
     .gioi_Thieu .button {
       height: 70px;
-      border: none;
-      color: white;
-      background: #2d2d2d;
       margin-top: 0; }
     .gioi_Thieu .gioi_Thieu_row {
       position: absolute;
@@ -267,6 +264,9 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 50px; }
+    .body_QA .button_QA a,
+    .body_QA .button_Monei a {
+      color: #222; }
   .body_QA .progress {
     padding: 0;
     transform: translateY(20%); }
@@ -284,13 +284,21 @@
     margin-bottom: 30px; }
   .body_QA .body_Monei .button_Monei {
     margin-top: 20px; }
+  .body_QA .body_Monei .fix_btn_active {
+    background: #4285F4;
+    color: white; }
 
-div .button_QA:hover {
-  background: #4285F4;
-  color: white; }
+div .button_QA:hover,
+.next_btn:hover {
+  background: #4285F4; }
+  div .button_QA:hover a,
+  .next_btn:hover a {
+    color: white; }
 
 .body_ketQua {
   text-align: center; }
+  .body_ketQua .sanPham_info {
+    background: #fafafa; }
   .body_ketQua .sanPham {
     vertical-align: middle; }
     .body_ketQua .sanPham .pic_sanPham {

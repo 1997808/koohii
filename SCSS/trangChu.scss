@@ -12,8 +12,8 @@
 
     .button {
         height: 50px;
-        border: $border_blue;
-        color: #222;
+        color: white;
+        background: $bg_dark;
         border-radius: $radius_2;
         margin-top: 15px;
         font-size: $font_medium;
@@ -154,9 +154,6 @@
     
         .button {
             height: 70px;
-            border: none;
-            color: white;
-            background: $bg_dark;
             margin-top: 0;
         }
 

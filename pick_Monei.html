@@ -71,8 +71,10 @@
                 </div>
         
                 <div class="row">
-                    <div class="button_Monei offset-1 col-4">Chỉnh sửa</div>
-                    <div class="button_Monei offset-2 col-4">Tiếp tục</div>
+                    <div class="button_Monei offset-1 col-4 fix_btn">Chỉnh sửa</div>
+                    <div class="button_Monei offset-2 col-4 next_btn">
+                        <a href="ketQua.html">Tiếp tục</a> 
+                    </div>
                 </div>
             </div>
         </div>
@@ -81,6 +83,7 @@
     
 
     <footer id="footer"></footer>
+
 
     <script src="https://code.jquery.com/jquery-3.4.0.min.js"
         integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
@@ -91,6 +94,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.fix_btn').click(() => {
+                $('.fix_btn').toggleClass("fix_btn_active");
+            })
+        })
+    </script>
 
     <script src="JS/HeadFoot.js"></script>
     <script src="JS/Responsive.js"></script>
