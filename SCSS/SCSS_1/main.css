@@ -364,6 +364,9 @@ div .button_QA:hover,
 @media (min-width: 992px) {
   .body_thamkhaoPC .sanPham .pic_sanPham {
     height: 15vw; } }
+@media (min-width: 1440px) {
+  .body_thamkhaoPC .sanPham .pic_sanPham {
+    height: 10vw; } }
 .body_thamkhaoLap .listLap {
   margin-top: 30px;
   margin-bottom: 30px; }
@@ -397,6 +400,19 @@ div .button_QA:hover,
   color: white; }
 
 @media (min-width: 768px) {
+  .body_thamkhaoLap .loc_sanPham {
+    text-align: center; }
+    .body_thamkhaoLap .loc_sanPham h3 {
+      font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1920 - 300)));
+      background: #222;
+      color: white;
+      padding: 5px 0;
+      margin: 15px 0 5px 0; }
+    .body_thamkhaoLap .loc_sanPham ul {
+      text-align: left;
+      font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1920 - 300))); }
+      .body_thamkhaoLap .loc_sanPham ul li {
+        padding: 5px 0; }
   .body_thamkhaoLap .listLap {
     margin-top: 0px; }
     .body_thamkhaoLap .listLap .sanPham .pic_sanPham {
@@ -413,19 +429,6 @@ div .button_QA:hover,
         bottom: 10px;
         right: 0px; } }
 @media (min-width: 992px) {
-  .body_thamkhaoLap .loc_sanPham {
-    text-align: center; }
-    .body_thamkhaoLap .loc_sanPham h3 {
-      font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1920 - 300)));
-      background: #222;
-      color: white;
-      padding: 5px 0;
-      margin: 15px 0 5px 0; }
-    .body_thamkhaoLap .loc_sanPham ul {
-      text-align: left;
-      font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1920 - 300))); }
-      .body_thamkhaoLap .loc_sanPham ul li {
-        padding: 5px 0; }
   .body_thamkhaoLap .listLap .sanPham .pic_sanPham {
     height: 15vw; }
   .body_thamkhaoLap .listLap .sanPham_info h3 {
@@ -434,6 +437,9 @@ div .button_QA:hover,
     padding: 10px 20px 10px 20px; }
   .body_thamkhaoLap .listLap .sanPham_info ul {
     padding: 10px 0px 10px 0px; } }
+@media (min-width: 1440px) {
+  .body_thamkhaoLap .listLap .sanPham .pic_sanPham {
+    height: 10vw; } }
 .body_blog img {
   width: 100%;
   object-fit: cover; }
